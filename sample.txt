@@ -1,1 +1,11 @@
-Random Text
+git init 	 					-- Initialise an empty repository
+git add filename 					--add that file to git repo
+git add . 						-- add all files
+git commit -m "message" 				 -- commit changes with a message
+git config --global user.name 'ndi' 			 -- username
+git config --global user.email 'ndi' 			 -- user mail
+git remote add origin https:github.com/username/repo.git -- add remote repo
+git push -u origin master 				-- move existing repo to remote repo
+git status 						-- check status
+git clone https:github.com/username/repo.git 		-- download remote repo
+git pull 						-- pulls that changes in that remote repo to local repo
